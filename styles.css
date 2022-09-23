@@ -1,0 +1,97 @@
+body{
+    background-image: linear-gradient(pink,white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-input{
+    text-align: center;
+}
+
+.input-name,.input-email,.input-ratings{
+    height:36px;
+    width:345px;
+    border:2px solid blueviolet;
+    font-size:22px;
+}
+
+.Movies{
+    height:36px;
+    width:345px;
+}
+
+.Movies>option{
+    font-size:22px;
+    color:olivedrab;
+    font-weight: 700;
+}
+
+.input-color{
+    height:36px;
+    width:345px;
+}
+
+.input-radio>li>label{
+   color:firebrick;
+}
+
+.input-submit{
+    border-style: none;
+    background-color: bisque;
+    padding:13px;
+    font-weight:700;
+    width:200px;
+    font-size:large
+}
+
+
+input::placeholder{
+    font-size:22px;
+}
+
+label{
+    color:Red;
+    font-size:24px;
+    font-weight:700
+}
+
+.form-input>input{
+    margin-bottom: 14px;
+}
+
+li{
+    list-style-type: none;    
+}
+
+.input-radio{
+    display: flex;
+    column-gap:15px;
+    justify-content: center;
+    align-items:center
+}
+
+.input-radio>li{
+    margin-left: 0px;
+}
+
+.Movies{
+    margin-bottom: 14px;
+}
+
+#close-btn{
+    background-color: aqua;
+}
+
+.new-div{
+    /* background-color: rgb(177, 141, 212); */
+    background-image: linear-gradient(rgb(177, 141, 212),white);
+    display:flex;
+    flex-direction: column;
+    margin-left:500px;
+    margin-top:60px;
+    align-items: center;
+    
+    width:500px;
+}

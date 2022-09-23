@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="form-input">
+        <label for="input-name">Your Name</label>
+        <br />
+        <input class="input-name" type="text" placeholder="Enter your name" />
+        <br />
+
+        <label for="input-email">Your Email</label>
+        <br />
+        <input class="input-email" type="email" placeholder="Enter your email" />
+        <br />
+
+        <label for="Movies">What do you love?</label>  
+        <br />
+
+        <select class="Movies">  
+            <option id="disabled-option" value = "Movies" selected disabled hidden>Movies</option>  
+            <option value = "Ranjhana">Ranjhana</option>  
+            <option value = "HULK">HULK</option>  
+            <option value = "Bahubali" >Bahubali</option>  
+            <option value = "LOST">LOST</option>  
+        </select> 
+        <br />
+
+        <label for="input-color">Choose a color</label>
+        <br />
+        <input class="input-color" type="color" />
+        <br />
+        
+        <label for="input-ratings">Rate the movies inception out of 10</label>
+        <br />
+        <input class="input-ratings" type="range" min="0" max="10" default="0" />
+        <br />
+
+        <label for="input-radio">Book genre you love?</label>
+        <ul class="input-radio">
+            <li>
+                <input type="radio" value="Fiction" name="book"/>
+                <label>Fiction</label>
+            </li>
+
+            <li>
+                <input type="radio" value="Non Fiction" name="book"/>
+                <label>Non Fiction</label>
+            </li>
+
+            <li>
+                <input type="radio" value="Adventure" name="book" />
+                <label>Adventure</label>
+            </li>
+        </ul>
+        <br />
+        
+        <input class="input-checkbox" type="checkbox" />
+        <label for="input-checkbox">I Agree To Terms</label>
+        <br />
+        <input class="input-submit" type="submit" placeholder="Submit"/>
+        
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
